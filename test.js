@@ -3,6 +3,7 @@ if (marker.numKeys > 0 && thisProperty.numKeys > keyNum && keyNum >= 2) {
 	var t1 = comp("_MAIN RENDER").layer("Text 2").marker.key(1).time - comp("_MAIN RENDER").layer("Text 2").inPoint;
 	var t2 = thisProperty.key(keyNum - 1).time;
 	var t3 = thisProperty.key(keyNum).time;
+	d
 	if (t1 <= t2) value;
 	else {
 		if (time >= t2)
